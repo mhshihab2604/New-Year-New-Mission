@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
  }
- .gradiant{
-    max-width: 1320px;
-    height: 600px;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
- }
  .banner-section p{
     color: white;
     text-align: center;
@@ -33,6 +27,12 @@
     border-radius: 16px;
     margin: 50px auto;
 }
+.gradiant-1{
+    max-width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+ }
 .discount-section h1{
     color: #F00;
     text-align: center;
@@ -73,47 +73,61 @@ h2{
     height: 600px;
     margin: 50px auto;
 }
-.welcome-text h1{
+.second-section {
+    background-image: url(./images/Vectorrr.png);
+    width: 1320px;
+    height: 620px;
+    background-repeat: no-repeat;
+    margin: 60px 300px;
+}
+
+.gradiant-2 {
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+}
+
+.welcome-text{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+.head {
+    width: 630px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
-    letter-spacing: 7.04px;
-    width: 642px;
+    letter-spacing: 07px;
 }
-.welcome-text p{
+
+.paragraph{
+    width: 660px;
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
-    width: 697px;  
-}
-.image-2 {
-    display: flex;
-    width: 319.83px;
-    height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 68px 0;
-    padding-right: 120px;
-}
-.joining-section{
-    text-align: center;
+    margin-top: 25px;
 }
 .btn-1{
+    background: none;
+    border: none;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    background: none;
-    border: none;
-    padding-left: 50px;
-    margin-top: 32px;
+    margin-top: 45px;
+    padding-left: 25px;
+}
+.joining-section{
+    text-align: center;
+    margin-top: 120px;
 }
 .joining-text{
     color: black;
@@ -123,7 +137,7 @@ h2{
     font-weight: 600;
     line-height: 56px;
 }
-span{
+.span{
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -144,6 +158,159 @@ span{
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
-    margin: 50px auto;
-    
+    margin: 50px auto; 
 }
+.waiting-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 250px;
+}
+.offer-section h3{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-section h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.image-3 img{
+    width: 320px;
+    height: 320px;
+}
+.image-3{
+    display: flex;
+    justify-content: center;
+    margin: right;
+}
+.radius{
+    width: 300px;
+    height: 300px;
+    border-radius: 463px;
+    border: 10px solid #F00;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.year-details h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.year-details p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.year-details img{
+    width: 140px;
+    height: 140px;
+}
+.holidays{
+    text-align: center;
+    margin-top: 140px;
+}
+.holidays h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holidays h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+} 
+.span-1{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 25px;
+}
+.gift-section{
+    margin-top: 140px;
+ 
+}
+
+.holidays{
+    align-items: center;
+    padding-bottom: 70px;
+}
+.head-2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.head-3{
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 75px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.head-4{
+    width: 1068px;
+    text-align: center;
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 60px;
+    padding-left: 400px;
+}
+.image-5{
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    padding-left: 320px;
+    padding-top: 350px;
+}
+.image-4{
+    position: absolute;
+    width: 40%;
+    left: 260px;
+}
+.image-6{
+    position: relative;
+    width: 409px;
+    left: 1231px;
+    top: -636px;
+    height: 403px;
+    bottom: 636px; 
+} 
+.image-7{
+    position: relative;
+    top: -994px;
+    left:1100px;
+}
+
