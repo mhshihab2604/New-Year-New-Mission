@@ -1,0 +1,57 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .banner-section p{
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 530px 16px;
+ }
+.banner-section h1{
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+.banner-section{
+    background-image: url('Images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px auto;
+}
+.discount-section h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700; 
+}
+.discount-section p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+}
+.image-1{
+    width: 802.9px;
+    height: 500px;
+    margin: 0 530px;
+    margin-top: 45px;
+}
