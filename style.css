@@ -159,7 +159,7 @@
     color: white;
     margin-top: 64px;
 }
-.gradiant-2{
+.gradiant-3{
     width: 1320px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -247,11 +247,6 @@
     margin-top: 140px;
     margin-bottom: -620px;
 }
-
-.holidays{
-    align-items: center;
-    padding-bottom: 70px;
-}
 .holidays h3{
     color: #070211;
     font-family: Inter;
@@ -278,17 +273,17 @@
     margin-bottom: 60px;
     padding-left: 400px;
 }
+.image-4{
+    position: absolute;
+    width: 40%;
+    left: 250px;
+}
 .image-5{
     width: 1335px;
     height: 229px;
     border-radius: 16px 0px 16px 16px;
     padding-left: 285px;
     padding-top: 350px;
-}
-.image-4{
-    position: absolute;
-    width: 40%;
-    left: 250px;
 }
 .image-6{
     position: relative;
