@@ -216,39 +216,31 @@ body{
     height: 140px;
     margin-top: 20px;
 }
-
-.holidays{
-    text-align: center;
+.gift-section{
     margin-top: 140px;
 }
-.span-1{
-    color: #F00;
+.holidays{
+    align-items: center;
+    padding-bottom: 70px;
+}
+.heading{
+    color: #070211;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
     text-align: center;
+    padding-bottom: 20px;
+}
+.heading-1{
+    text-align: center;
+    color: #070211;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-}
-
-.gift-section{
-    margin-top: 140px;
-    margin-bottom: -620px;
-}
-.holidays h3{
-    color: #070211;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    padding-bottom: 20px;
-}
-.holidays h1{
-    text-align: center;
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 75px;
-    font-weight: 900;
     padding-bottom: 30px;
 }
-.holidays p{
+.heading-para{
+    margin-left: 350px;
     width: 1068px;
     text-align: center;
     color: black;
@@ -256,39 +248,38 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    margin-bottom: 60px;
-    padding-left: 400px;
+}
+.gift-img {
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 .image-4{
-    position: absolute;
-    width: 40%;
-    left: 250px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    top: 245px;
 }
 .image-5{
-    width: 1335px;
-    height: 229px;
-    border-radius: 16px 0px 16px 16px;
-    padding-left: 285px;
-    padding-top: 350px;
+    width: 420px;
+    height: 420px;
+    position: relative;
+    top: 4px;
+    left: 300px;
 }
 .image-6{
+    width: 200px;
+    height: 200px;
     position: relative;
-    width: 409px;
-    left: 1211px;
-    top: -637px;
-    height: 403px;
-    bottom: 636px; 
-} 
-.image-7{
-    position: relative;
-    top: -995px;
-    left:1100px;
+    top: -69px;
+    left: -184px;
 }
 .portfolio-section h3{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 140px;
 }
 .portfolio-section h1{
     color: #070211;
