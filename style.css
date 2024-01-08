@@ -6,7 +6,6 @@
     font-family: 'Merriweather', serif;
 
     font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
  }
  .banner-section p{
     color: white;
@@ -55,12 +54,13 @@
     font-weight: 500;
     margin-top: 48px;
 }
-h2{
+.discount-section h2{
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 45px;
     font-weight: 700;
+    margin-top: 10px;
 }
 .image-1{
     width: 802.9px;
@@ -250,14 +250,14 @@ h2{
     align-items: center;
     padding-bottom: 70px;
 }
-.holidays .head-2{
+.holidays h3{
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 20px;
 }
-.head-3{
+.holidays h1{
     text-align: center;
     color: #070211;
     font-family: Merriweather;
@@ -265,7 +265,7 @@ h2{
     font-weight: 900;
     padding-bottom: 30px;
 }
-.head-4{
+.holidays p{
     width: 1068px;
     text-align: center;
     color: black;
@@ -324,7 +324,7 @@ h2{
     margin-top: 15px;
 }
 .gifts{
-    padding-left: 290px;
+    padding-left: 285px;
 }
 .portfolio img{
     height: 390px;
@@ -377,6 +377,7 @@ h2{
     border-radius: 40px 0 0 40px;
     border: none; 
     outline: none;
+    margin-top: 70px;
 }
 .btn-3{
     width: 210px;
@@ -386,6 +387,11 @@ h2{
     border: none;
     color: white;
     margin-top: 70px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ::placeholder{
     color: rgba(7, 2, 17, 0.30);
